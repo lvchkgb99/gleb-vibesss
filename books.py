@@ -117,58 +117,67 @@ BOOKS = {
     },
 }
 
+# options: (text, scores, one-liner)
 QUESTIONS = [
     {
         "q": "🌅 It's 9am Monday. Your Slack has 47 unread messages. You:",
         "options": [
-            ("Spiral into an existential crisis about the nature of work and whether any of this truly matters", {"CP": 2, "TI": 1}),
-            ("Make a coffee, stare at the screen, and philosophically decide to respond... tomorrow", {"DS": 2, "EO": 1}),
-            ("Jump straight in. Chaos is just opportunity wearing a disguise", {"WP": 2, "MM": 1}),
-            ("Reply to everyone with warmth and genuine care. You believe in people", {"TI": 2, "AK": 1}),
-            ("Suspect the devil himself sent those messages and act accordingly", {"MM": 2, "CP": 1}),
+            ("Spiral into an existential crisis about the nature of work and whether any of this truly matters", {"CP": 2, "TI": 1}, "Dostoevsky would be proud. And concerned."),
+            ("Make a coffee, stare at the screen, and philosophically decide to respond... tomorrow", {"DS": 2, "EO": 1}, "A true philosopher of procrastination."),
+            ("Jump straight in. Chaos is just opportunity wearing a disguise", {"WP": 2, "MM": 1}, "Tolstoy has entered the chat."),
+            ("Reply to everyone with warmth and genuine care. You believe in people", {"TI": 2, "AK": 1}, "Suspiciously wholesome. We're watching you."),
+            ("Suspect the devil himself sent those messages and act accordingly", {"MM": 2, "CP": 1}, "...have you considered that you might be right?"),
         ],
     },
     {
         "q": "😤 A colleague takes credit for your idea in a meeting. You:",
         "options": [
-            ("Spend three days in silent moral anguish debating whether to say something", {"CP": 2, "TI": 1}),
-            ("Laugh. Of course they did. This world is a comedy and you have a front row seat", {"DS": 2, "MM": 1}),
-            ("Write a strongly-worded email you will never, ever send", {"EO": 2, "AK": 1}),
-            ("Forgive them immediately. You genuinely believe in the goodness of people", {"TI": 2, "WP": 1}),
-            ("Declare silent war. History will remember who had the idea first", {"WP": 2, "FS": 1}),
+            ("Spend three days in silent moral anguish debating whether to say something", {"CP": 2, "TI": 1}, "Classic. Truly, classically Russian."),
+            ("Laugh. Of course they did. This world is a comedy and you have a front row seat", {"DS": 2, "MM": 1}, "You and Gogol would have been best friends."),
+            ("Write a strongly-worded email you will never, ever send", {"EO": 2, "AK": 1}, "The most literary form of revenge. Elegant."),
+            ("Forgive them immediately. You genuinely believe in the goodness of people", {"TI": 2, "WP": 1}, "You absolute saint. Suspicious saint."),
+            ("Declare silent war. History will remember who had the idea first", {"WP": 2, "FS": 1}, "Napoleon also thought this way. Consider that."),
         ],
     },
     {
         "q": "🛋️ Your ideal Saturday involves:",
         "options": [
-            ("Long, brooding walks while composing dramatic internal monologues", {"CP": 2, "EO": 1}),
-            ("Hosting a dinner party that somehow gets completely out of hand", {"MM": 2, "DS": 1}),
-            ("A passionate love affair that will probably end badly but feels incredible", {"AK": 2, "EO": 1}),
-            ("Reading, improving yourself, and quietly preparing for greatness", {"WP": 2, "FS": 1}),
-            ("Doing absolutely nothing and feeling a vague, pleasant guilt about it", {"TI": 2, "CP": 1}),
+            ("Long, brooding walks while composing dramatic internal monologues", {"CP": 2, "EO": 1}, "The 19th century called. It wants you back."),
+            ("Hosting a dinner party that somehow gets completely out of hand", {"MM": 2, "DS": 1}, "Every great Russian novel starts exactly this way."),
+            ("A passionate love affair that will probably end badly but feels incredible", {"AK": 2, "EO": 1}, "What could go wrong? (Everything. Everything could go wrong.)"),
+            ("Reading, improving yourself, and quietly preparing for greatness", {"WP": 2, "FS": 1}, "Tolstoy is taking notes. Approvingly."),
+            ("Doing absolutely nothing and feeling a vague, pleasant guilt about it", {"TI": 2, "CP": 1}, "Deeply, beautifully, quintessentially Russian."),
         ],
     },
     {
         "q": "🧠 Which sentence speaks directly to your soul?",
         "options": [
-            ("\"I suffer, therefore I am\"", {"CP": 2, "TI": 1}),
-            ("\"Life is absurd, and honestly? Mood.\"", {"MM": 2, "DS": 1}),
-            ("\"Love is everything, even if — especially if — it destroys me\"", {"AK": 2, "EO": 1}),
-            ("\"I just want everyone to be okay, is that so much to ask\"", {"TI": 2, "WP": 1}),
-            ("\"I reject your values and I'm establishing my own\"", {"FS": 2, "MM": 1}),
+            ("\"I suffer, therefore I am\"", {"CP": 2, "TI": 1}, "Dostoevsky has your home address."),
+            ("\"Life is absurd, and honestly? Mood.\"", {"MM": 2, "DS": 1}, "Bulgakov is laughing somewhere. So is the devil."),
+            ("\"Love is everything, even if — especially if — it destroys me\"", {"AK": 2, "EO": 1}, "Anna Karenina has entered the chat."),
+            ("\"I just want everyone to be okay, is that so much to ask\"", {"TI": 2, "WP": 1}, "You sweet, doomed idealist."),
+            ("\"I reject your values and I'm establishing my own\"", {"FS": 2, "MM": 1}, "Nihilism for breakfast. Respect."),
         ],
     },
     {
         "q": "🌑 How do you take your existential dread?",
         "options": [
-            ("Neat. I lean into it. It's my whole personality and I'm fine with that", {"CP": 2, "EO": 1}),
-            ("With dark humour, deployed at slightly inappropriate moments", {"MM": 2, "DS": 1}),
-            ("I fall in love. That'll fix it", {"AK": 2, "EO": 1}),
-            ("I write a 1,200-page novel about Russian society. Catharsis through volume", {"WP": 2, "FS": 1}),
-            ("What existential dread? I choose joy. Every single time", {"TI": 2, "CP": 0}),
+            ("Neat. I lean into it. It's my whole personality and I'm fine with that", {"CP": 2, "EO": 1}, "A true connoisseur of suffering. Respect."),
+            ("With dark humour, deployed at slightly inappropriate moments", {"MM": 2, "DS": 1}, "The most Russian coping mechanism known to man."),
+            ("I fall in love. That'll fix it", {"AK": 2, "EO": 1}, "Bold. Historically unwise. Incredibly bold."),
+            ("I write a 1,200-page novel about Russian society. Catharsis through volume", {"WP": 2, "FS": 1}, "That tracks, honestly."),
+            ("What existential dread? I choose joy. Every single time", {"TI": 2, "CP": 0}, "...suspicious levels of okayness. We'll allow it."),
         ],
     },
 ]
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def doll_progress(current, total):
+    filled = "🪆" * current
+    empty = "○" * (total - current)
+    return filled + empty
+
 
 # ── App ───────────────────────────────────────────────────────────────────────
 
@@ -182,51 +191,68 @@ if "current_q" not in st.session_state:
     st.session_state.current_q = 0
 if "submitted" not in st.session_state:
     st.session_state.submitted = False
+if "pending_answer" not in st.session_state:
+    st.session_state.pending_answer = None
 
 total = len(QUESTIONS)
 
 if not st.session_state.submitted:
     i = st.session_state.current_q
 
-    # Progress bar
-    st.caption(f"Question {i + 1} of {total}")
-    st.progress((i) / total)
+    # Matryoshka doll progress
+    st.markdown(f"##### {doll_progress(i, total)}  `{i + 1} / {total}`")
     st.markdown("")
 
-    item = QUESTIONS[i]
-    st.markdown(f"**{item['q']}**")
-    st.markdown("")
-
-    options_text = [opt[0] for opt in item["options"]]
-    choice = st.radio(
-        label="choice",
-        options=options_text,
-        index=None,
-        label_visibility="collapsed",
-        key=f"radio_{i}",
-    )
-
-    st.markdown("")
-    is_last = i == total - 1
-    btn_label = "🔬 Diagnose me" if is_last else "Next →"
-
-    if st.button(btn_label, use_container_width=True):
-        if choice is None:
-            st.warning("Pick an answer to continue.")
-        else:
-            st.session_state.answers[i] = choice
-            if is_last:
-                st.session_state.submitted = True
-            else:
-                st.session_state.current_q += 1
+    # One-liner interstitial
+    if st.session_state.pending_answer is not None:
+        _, _, oneliner = st.session_state.pending_answer
+        st.markdown(f"### *\"{oneliner}\"*")
+        st.markdown("")
+        if st.button("Continue →", use_container_width=True):
+            opt_text, scores, _ = st.session_state.pending_answer
+            st.session_state.answers[i - 1] = opt_text
+            st.session_state.pending_answer = None
             st.rerun()
+
+    else:
+        item = QUESTIONS[i]
+        st.markdown(f"**{item['q']}**")
+        st.markdown("")
+
+        options_text = [opt[0] for opt in item["options"]]
+        choice = st.radio(
+            label="choice",
+            options=options_text,
+            index=None,
+            label_visibility="collapsed",
+            key=f"radio_{i}",
+        )
+
+        st.markdown("")
+        is_last = i == total - 1
+        btn_label = "🔬 Diagnose me" if is_last else "Next →"
+
+        if st.button(btn_label, use_container_width=True):
+            if choice is None:
+                st.warning("Pick an answer to continue.")
+            else:
+                # Find the full option tuple
+                selected = next(opt for opt in item["options"] if opt[0] == choice)
+                if is_last:
+                    st.session_state.answers[i] = choice
+                    st.session_state.submitted = True
+                    st.rerun()
+                else:
+                    st.session_state.current_q += 1
+                    st.session_state.pending_answer = selected
+                    st.rerun()
 
 else:
     # Tally scores
     scores = {k: 0 for k in BOOKS}
     for i, item in enumerate(QUESTIONS):
         answer = st.session_state.answers.get(i)
-        for opt_text, points in item["options"]:
+        for opt_text, points, _ in item["options"]:
             if opt_text == answer:
                 for book_key, pts in points.items():
                     scores[book_key] += pts
@@ -234,7 +260,7 @@ else:
     winner = max(scores, key=lambda k: scores[k])
     book = BOOKS[winner]
 
-    st.progress(1.0)
+    st.markdown(f"##### {'🪆' * total}  `{total} / {total}`")
     st.markdown("")
     st.markdown(f"## {book['emoji']} Diagnosis complete.")
     st.markdown("---")
@@ -249,4 +275,5 @@ else:
         st.session_state.answers = {}
         st.session_state.current_q = 0
         st.session_state.submitted = False
+        st.session_state.pending_answer = None
         st.rerun()
