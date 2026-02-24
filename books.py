@@ -115,6 +115,48 @@ BOOKS = {
         ),
         "emoji": "🔬",
     },
+    "OB": {
+        "title": "Oblomov",
+        "author": "Ivan Goncharov",
+        "rx_title": "The Procrastinator's Masterpiece",
+        "rx": (
+            "You have been prescribed *Oblomov* — the story of a man so philosophically committed "
+            "to doing nothing that he barely leaves his sofa for the first 100 pages. "
+            "And yet Goncharov makes this completely compelling. "
+            "Oblomov is not lazy; he is spiritually opposed to hustle culture, 150 years before it was a term. "
+            "You understand him on a deep, personal level. "
+            "This book will not change you. You will love it anyway. Read it whenever you get around to it."
+        ),
+        "emoji": "🛋️",
+    },
+    "BK": {
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "rx_title": "The Deep Thinker's Final Boss",
+        "rx": (
+            "Congratulations — you have been assigned the most ambitious book on this list. "
+            "*The Brothers Karamazov* is about faith, doubt, family dysfunction, murder, and the "
+            "fundamental question of whether goodness can exist in a world this chaotic. "
+            "Dostoevsky considered it his masterpiece. It is 900 pages. "
+            "You will not regret a single one. "
+            "Warning: you may emerge with strong opinions about God, free will, and your own family."
+        ),
+        "emoji": "⛪",
+    },
+    "HT": {
+        "title": "A Hero of Our Time",
+        "author": "Mikhail Lermontov",
+        "rx_title": "The Charming Cynic's Mirror",
+        "rx": (
+            "You are self-aware, a little dangerous, and deeply interesting at dinner parties. "
+            "*A Hero of Our Time* follows Pechorin — charming, intelligent, and completely incapable "
+            "of not destroying everything he touches. "
+            "Lermontov invented the byronic antihero in Russian literature with this book. "
+            "You'll either find Pechorin insufferable or recognise him with uncomfortable familiarity. "
+            "Either way, you won't be able to look away. Neither will anyone at the dinner party."
+        ),
+        "emoji": "🗡️",
+    },
 }
 
 QUESTIONS = [
@@ -164,8 +206,38 @@ QUESTIONS = [
             ("Neat. I lean into it. It's my whole personality and I'm fine with that", {"CP": 2, "EO": 1}),
             ("With dark humour, deployed at slightly inappropriate moments", {"MM": 2, "DS": 1}),
             ("I fall in love. That'll fix it", {"AK": 2, "EO": 1}),
-            ("I write a 1,200-page novel about Russian society. Catharsis through volume", {"WP": 2, "FS": 1}),
+            ("I write a 1,200-page novel about Russian society. Catharsis through volume", {"WP": 2, "BK": 1}),
             ("What existential dread? I choose joy. Every single time", {"TI": 2, "CP": 0}),
+        ],
+    },
+    {
+        "q": "💬 A Slack message comes in that just says 'can we talk?'. You:",
+        "options": [
+            ("Immediately assume the worst and begin mentally drafting your resignation", {"CP": 2, "BK": 1}),
+            ("Reply 'sure!' with the confidence of someone who has done absolutely nothing wrong", {"WP": 2, "HT": 1}),
+            ("Spend 45 minutes analysing every interaction from the past two weeks", {"EO": 2, "CP": 1}),
+            ("Feel a genuine rush of excitement. Finally — some drama", {"MM": 2, "AK": 1}),
+            ("Close the laptop and go for a walk. Whatever it is, it can wait", {"OB": 2, "DS": 1}),
+        ],
+    },
+    {
+        "q": "📅 Someone schedules a meeting that could have been an email. You:",
+        "options": [
+            ("Attend and silently seethe for the full 45 minutes", {"EO": 2, "HT": 1}),
+            ("Attend and somehow make it worse by asking very thorough questions", {"WP": 2, "BK": 1}),
+            ("Send a passive-aggressive 'per my last email' before joining", {"DS": 2, "MM": 1}),
+            ("Genuinely enjoy the human connection. Meetings are lovely, actually", {"TI": 2, "AK": 1}),
+            ("Reschedule it three times and hope it quietly cancels itself", {"OB": 2, "EO": 1}),
+        ],
+    },
+    {
+        "q": "⏰ Your relationship with deadlines is best described as:",
+        "options": [
+            ("A complex ongoing moral negotiation with myself", {"CP": 2, "BK": 1}),
+            ("I am the deadline. The deadline adjusts to me", {"WP": 2, "HT": 1}),
+            ("I finish early, then spend the remaining time convinced it wasn't good enough", {"TI": 2, "EO": 1}),
+            ("A creative reinterpretation of the word 'by'", {"MM": 2, "DS": 1}),
+            ("Why do today what can be philosophically deferred to tomorrow", {"OB": 2, "FS": 1}),
         ],
     },
 ]
